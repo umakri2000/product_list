@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .font-24{
+  font-size: 24px;
+ }
+ .font-14{
+  font-size: 14px;
+ }
+ .relative{
+  position: relative;
+ }
+ .absolute{
+  position: absolute;
+ }
+ .flex{
+  display: flex;
+ }
+ @font-face {
+  font-family: 'RedHat Regular';
+  src: url('/src/fonts/static/RedHatText-Regular.ttf')format('truetype');
+}
+@font-face {
+  font-family: 'RedHat Bold';
+  src: url('/src/fonts/static/RedHatText-Bold.ttf')format('truetype');
+}
+@font-face {
+  font-family: 'RedHat SemiBold';
+  src: url('/src/fonts/static/RedHatText-SemiBold.ttf')format('truetype');
+}
+.hpad{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.vpad{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.vspad{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.f11{
+  font-size: 11px;
+}
+.f13{
+  font-size: 13px;
+
+}
+.f14{
+  font-size: 14px;
+}
+.bmar{
+  margin-bottom: 5px;
+  /* display: inline-block; */
+}
+.textCenter{
+  text-align: center;
+}
+
+
+
